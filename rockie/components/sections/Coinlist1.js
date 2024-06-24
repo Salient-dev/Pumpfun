@@ -51,9 +51,17 @@ export default function Coinlist1() {
                                                         <th scope="row"><IconStar /></th>
                                                         <td>1</td>
                                                         <td>
-                                                            <Link href="#"><span className="icon-btc"><span className="path1" /><span className="path2" /></span>
-                                                                <span>Bitcoin</span>
-                                                                <span className="unit">BTC</span></Link>
+                                                            <div className="flex align-center">
+                                                                <div  className="pad"><img src="/assets/images/icon/user.png" alt=""/></div>
+                                                                <div  className="pad">
+                                                                <div>
+                                                                    <strong>$Matrix</strong>/ <span class="unit">WETH</span>
+                                                                </div>
+                                                                <div>
+                                                                    <span>4hfhkd...deX</span>
+                                                                </div>
+                                                                </div>
+                                                            </div>
                                                         </td>
                                                         <td className="boild"><img src="/assets/images/icon/horloge-murale.png"/> 2h</td>
                                                         <td className="boild"><img src="/assets/images/icon/solana.png"/> 1.1B/$178B <br /><p className="color-success">+145782125%</p></td>
@@ -107,8 +115,17 @@ export default function Coinlist1() {
                                                         <th scope="row"><IconStar /></th>
                                                         <td>2</td>
                                                         <td>
-                                                            <Link href="#"><span className="icon-eth"><span className="path1" /><span className="path2" /><span className="path3" /><span className="path4" /></span><span>Ethereum</span>
-                                                                <span className="unit">ETH</span></Link>
+                                                            <div className="flex align-center">
+                                                                <div  className="pad"><img src="/assets/images/icon/user.png" alt=""/></div>
+                                                                <div  className="pad">
+                                                                <div>
+                                                                    <strong>$Matrix</strong>/ <span class="unit">Base</span>
+                                                                </div>
+                                                                <div>
+                                                                    <span>4hfhkd...deX</span>
+                                                                </div>
+                                                                </div>
+                                                            </div>
                                                         </td>
                                                         <td className="boild"><img src="/assets/images/icon/horloge-murale.png"/> 2h</td>
                                                         <td className="boild"><img src="/assets/images/icon/solana.png"/> 1.1B/$178B <br /><p className="color-success">+145782125%</p></td>
@@ -162,8 +179,17 @@ export default function Coinlist1() {
                                                         <th scope="row"><IconStar /></th>
                                                         <td>3</td>
                                                         <td>
-                                                            <Link href="#"><span className="icon-bnb"><span className="path1" /><span className="path2" /><span className="path3" /><span className="path4" /><span className="path5" /><span className="path6" /></span><span>BNB</span>
-                                                                <span className="unit">BNB/USD</span></Link>
+                                                            <div className="flex align-center">
+                                                                <div  className="pad"><img src="/assets/images/icon/user.png" alt=""/></div>
+                                                                <div  className="pad">
+                                                                <div>
+                                                                    <strong>$Matrix</strong>/ <span class="unit">Base</span>
+                                                                </div>
+                                                                <div>
+                                                                    <span>4hfhkd...deX</span>
+                                                                </div>
+                                                                </div>
+                                                            </div>
                                                         </td>
                                                         <td className="boild"><img src="/assets/images/icon/horloge-murale.png"/> 2h</td>
                                                         <td className="boild"><img src="/assets/images/icon/solana.png"/> 1.1B/$178B <br /><p className="color-success">+145782125%</p></td>
@@ -328,116 +354,6 @@ export default function Coinlist1() {
                                                         <td>6</td>
                                                         <td>
                                                             <Link href="#"><span className="icon-btc"><span className="path1" /><span className="path2" /></span><span>XRP</span> <span className="unit">XRP</span></Link>
-                                                        </td>
-                                                        <td className="boild"><img src="/assets/images/icon/horloge-murale.png"/> 2h</td>
-                                                        <td className="boild"><img src="/assets/images/icon/solana.png"/> 1.1B/$178B <br /><p className="color-success">+145782125%</p></td>
-                                                        <td>
-                                                            <div className="progress">
-                                                                <div
-                                                                    className="progress-bar progress-bar-striped progress-bar-animated"
-                                                                    role="progressbar"
-                                                                    style={{ width: '85%', backgroundColor:'green' }}
-                                                                >85%</div>
-                                                            </div>
-                                                        </td>
-                                                        <td className="boild">45 <br /><p><span className="color-success">25</span> / <span className="color-critical">20</span></p></td>
-                                                        <td className="boild">$100k</td>
-                                                        <td className="boild">
-                                                            <div className="flex">
-                                                                <div className="div">
-                                                                    <div><img src="/assets/images/icon/checked.png" alt=""/></div>
-                                                                    <div>Mint Auth</div>
-                                                                    <div>Disabled</div>
-                                                                </div>
-                                                                <div className="div">
-                                                                    <div><img src="/assets/images/icon/checked.png" alt=""/></div>
-                                                                    <div>Freeze Auth</div>
-                                                                    <div>Disabled</div>
-                                                                </div>
-                                                                <div className="div">
-                                                                    <div><img src="/assets/images/icon/cross.png" alt=""/></div>
-                                                                    <div>LP</div>
-                                                                    <div>Burned</div>
-                                                                </div>
-                                                                <div className="div">
-                                                                    <div><img src="/assets/images/icon/cross.png" alt=""/></div>
-                                                                    <div>Top 10</div>
-                                                                    <div>Holders</div>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div className="progress">
-                                                                <div
-                                                                    className="progress-bar progress-bar-striped progress-bar-animated"
-                                                                    role="progressbar"
-                                                                    style={{ width: '66%', backgroundColor:'orange' }}
-                                                                >66%</div>
-                                                            </div>
-                                                        </td>
-                                                        <td><Link href="#" className="btn">Quick Buy</Link></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row"><IconStar /></th>
-                                                        <td>7</td>
-                                                        <td>
-                                                            <Link href="#"><span className="icon-ada"><span className="path1" /><span className="path2" /><span className="path3" /><span className="path4" /><span className="path5" /><span className="path6" /><span className="path7" /><span className="path8" /><span className="path9" /></span><span>Cardano</span>
-                                                                <span className="unit">ADA</span></Link>
-                                                        </td>
-                                                        <td className="boild"><img src="/assets/images/icon/horloge-murale.png"/> 2h</td>
-                                                        <td className="boild"><img src="/assets/images/icon/solana.png"/> 1.1B/$178B <br /><p className="color-success">+145782125%</p></td>
-                                                        <td>
-                                                            <div className="progress">
-                                                                <div
-                                                                    className="progress-bar progress-bar-striped progress-bar-animated"
-                                                                    role="progressbar"
-                                                                    style={{ width: '85%', backgroundColor:'green' }}
-                                                                >85%</div>
-                                                            </div>
-                                                        </td>
-                                                        <td className="boild">45 <br /><p><span className="color-success">25</span> / <span className="color-critical">20</span></p></td>
-                                                        <td className="boild">$100k</td>
-                                                        <td className="boild">
-                                                            <div className="flex">
-                                                                <div className="div">
-                                                                    <div><img src="/assets/images/icon/checked.png" alt=""/></div>
-                                                                    <div>Mint Auth</div>
-                                                                    <div>Disabled</div>
-                                                                </div>
-                                                                <div className="div">
-                                                                    <div><img src="/assets/images/icon/checked.png" alt=""/></div>
-                                                                    <div>Freeze Auth</div>
-                                                                    <div>Disabled</div>
-                                                                </div>
-                                                                <div className="div">
-                                                                    <div><img src="/assets/images/icon/cross.png" alt=""/></div>
-                                                                    <div>LP</div>
-                                                                    <div>Burned</div>
-                                                                </div>
-                                                                <div className="div">
-                                                                    <div><img src="/assets/images/icon/cross.png" alt=""/></div>
-                                                                    <div>Top 10</div>
-                                                                    <div>Holders</div>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div className="progress">
-                                                                <div
-                                                                    className="progress-bar progress-bar-striped progress-bar-animated"
-                                                                    role="progressbar"
-                                                                    style={{ width: '66%', backgroundColor:'orange' }}
-                                                                >66%</div>
-                                                            </div>
-                                                        </td>
-                                                        <td><Link href="#" className="btn">Quick Buy</Link></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row"><IconStar /></th>
-                                                        <td>8</td>
-                                                        <td>
-                                                            <Link href="#"><span className="icon-avax"><span className="path1" /><span className="path2" /><span className="path3" /><span className="path4" /></span><span>Avalanche</span>
-                                                                <span className="unit">AVAX</span></Link>
                                                         </td>
                                                         <td className="boild"><img src="/assets/images/icon/horloge-murale.png"/> 2h</td>
                                                         <td className="boild"><img src="/assets/images/icon/solana.png"/> 1.1B/$178B <br /><p className="color-success">+145782125%</p></td>
